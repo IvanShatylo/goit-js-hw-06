@@ -4,5 +4,5 @@ const textRef = document.querySelector('span');
 inputRef.addEventListener('input', onInput);
 
 function onInput(event) {
-  textRef.style.fontSize = inputEl.value + "px";
+  textRef.style.fontSize = inputRef.value + "px";
 }
